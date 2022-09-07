@@ -1,33 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="icon" type="image/x-icon" href="/assets/alchemy-favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&family=Titillium+Web:wght@200;400;600&display=swap"
+        />
+        <link rel="stylesheet" href="/styles/reset.css" />
+        <link rel="stylesheet" href="/styles/global.css" />
+        <title>Web App</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" type="image/x-icon" href="/assets/alchemy-favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&family=Titillium+Web:wght@200;400;600&display=swap">
-    <link rel="stylesheet" href="/styles/reset.css" />
-    <link rel="stylesheet" href="/styles/global.css" />
-    <title>Web App</title>
-</head>
+    <body>
+        <header>
+            <h1 id="main-title">About Me</h1>
+        </header>
+        <main>
+            <section class="bio-section">
+                <img src="./assets/My_Face.png" alt="My Face!" class="bio-img" height="500" />
+                <div class="bio-text">
+                    <h2 class="bio-name">Rio Edwards</h2>
+                    <p class="bio-paragraph">
+                        Hello, I'm Rio! I'm an aspiring web-developer living in Portland Oregon. I
+                        love music, animals and coding (among other things)!
+                    </p>
+                </div>
+            </section>
 
-<body>
-    <header>
-        <img src="/assets/html_css_js.png">
-        <h1>Web App</h1>
-    </header>
+            <section class="fav-animals-section">
+                <h1>My Favorite Animals</h2>
+                <div class="fav-animals-content">
+                    <ul>
+                        <li>
+                            <div class="animal-card">
+                                <h3>Dog</h3>
+                                <img src="./assets/Dog.JPG" alt="A Dog Meme">
+                                <p>
+                                    Dogs were the first species to ever
+                                    be domesticated! They are likely the
+                                    only thing keeping society from total
+                                    collapse!
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="animal-card">
+                                <h3>Cat</h3>
+                                <img src="./assets/Kitten_Basket.jpeg" alt="Kittens in a basket">
+                                <p>
+                                    Cats have the largest eyes relative to their head 
+                                    size of any mammal! They are adorable and
+                                    terrifying at the same time!
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="animal-card">
+                                <h3>Capybara</h3>
+                                <img src="./assets/Capybara.webp" alt="Two happy cappy's">
+                                <p>
+                                    The world's largest rodent! Who wouldn't 
+                                    love that beautiful face?!
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="animal-card">
+                                <h3>Opossum</h3>
+                                <img src="./assets/Opossum.jpeg" alt="A baby opossum hanging from a branch">
+                                <p>
+                                    North America's only marsupial!
+                                    They are an acquired taste, so if you 
+                                    don't like 'em... acquire some taste! 🤷‍♂️
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-    <main>
+            <section class="fav-music-section">
+                <h1>My Favorite Music</h2>
+                <div class="fav-music-content">
+                    <ul>
+                        <li class="music-card">
+                            <h3>Adele</h3>
+                            <img src="./assets/Adele.jpeg" alt="Adele!">
+                        </li>
+                        <li class="music-card">
+                            <h3>Ben Howard</h3>
+                            <img src="./assets/Ben_Howard.jpeg" alt="Ben Howard">
+                        </li>
+                        <li class="music-card">
+                            <h3>G Jones</h3>
+                            <img src="./assets/G_Jones.jpeg" alt="G Jones">
+                        </li>
+                        <li class="music-card">
+                            <h3>Griz</h3>
+                            <img src="./assets/Griz.jpeg" alt="Griz">
+                        </li>
+                        <li class="music-card">
+                            <h3>Medasin</h3>
+                            <img src="./assets/Medasin.jpeg" alt="Medasin">
+                        </li>
+                        <li class="music-card">
+                            <h3>The Weekend</h3>
+                            <img src="./assets/The_Weekend.png" alt="The Weekend">
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-    </main>
-
-    <footer>&copy;2022 Software Developer</footer>
-
-    <script type="module" src="app.js"></script>
-</body>
-
+            <section class="fav-Coding-Concepts-section">
+                <h1>My Favorite Coding Concepts</h2>
+                <div class="fav-coding-content">
+                    <ul>
+                        <li class="coding-card">
+                            <h3>Variables</h3>
+                            <p>let tacos = 'Yummy';</p>
+                        </li>
+                        <li class="coding-card">
+                            <h3>Arrays</h3>
+                            <p>const cake = ['breading', 'filling', 'frosting'];</p>
+                        </li>
+                        <li class="coding-card">
+                            <h3>Objects</h3>
+                            <p>const restaurant = {
+                                name: “Rio's Fire 'Za”,
+                                food: 'Pizza',
+                                drink: 'Water',
+                                employees: ['Fred', 'Sam', 'Bob', 'Alice']
+                            };</p>
+                        </li>
+                        <li class="coding-card">
+                            <h3>Functions</h3>
+                            <p>function makeSalad(base, topping1, topping2, topping3) {
+                                const salad = [base, topping1, topping2, topping3];
+                                return salad;
+                            };</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer>&copy;2022 Software Developer</footer>
+        <script type="module" src="app.js"></script>
+    </body>
 </html>
